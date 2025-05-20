@@ -6,48 +6,58 @@ export default function Header() {
           <div className="col-1-6">
             <img src="./dc-logo.png" alt="DC Logo" />
           </div>
-          <nav>
-            <ul>
-              <li>
+          <div id="header-navbar">
+            <nav>
+              <div>
                 <a href="#">CHARACTERS</a>
-              </li>
-              <li>
+                <div className="under-line"></div>
+              </div>
+              <div>
                 <a href="#">COMICS</a>
-              </li>
+                <div className="under-line"></div>
+              </div>
 
-              <li>
+              <div>
                 <a href="#">MOVIES</a>
-              </li>
+                <div className="under-line"></div>
+              </div>
 
-              <li>
+              <div>
                 <a href="#">TV</a>
-              </li>
+                <div className="under-line"></div>
+              </div>
 
-              <li>
+              <div>
                 <a href="#">GAMES</a>
-              </li>
+                <div className="under-line"></div>
+              </div>
 
-              <li>
+              <div>
                 <a href="#">COLLECTIBLES</a>
-              </li>
+                <div className="under-line"></div>
+              </div>
 
-              <li>
+              <div>
                 <a href="#">VIDEOS</a>
-              </li>
+                <div className="under-line"></div>
+              </div>
 
-              <li>
+              <div>
                 <a href="#">FANS</a>
-              </li>
+                <div className="under-line"></div>
+              </div>
 
-              <li>
+              <div>
                 <a href="#">NEWS</a>
-              </li>
+                <div className="under-line"></div>
+              </div>
 
-              <li>
+              <div>
                 <a href="#">SHOP</a>
-              </li>
-            </ul>
-          </nav>
+                <div className="under-line"></div>
+              </div>
+            </nav>
+          </div>
         </div>
       </div>
     </header>
