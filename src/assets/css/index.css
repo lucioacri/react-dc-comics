@@ -126,9 +126,19 @@ footer {
 }
 
 #footer-navbar {
-  padding-top: 1rem;
-  padding-bottom: 2rem;
   background-image: url(./footer-bg.jpg);
+  max-height: 300px;
+}
+
+.links-list {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 13px;
+}
+
+h5 {
+  margin: 10px 0;
+  font-weight: bold;
 }
 
 #footer-links {
@@ -158,4 +168,14 @@ footer {
 .socials nav ul {
   display: flex;
   gap: 2rem;
+}
+
+.big-logo {
+  object-fit: cover;
+  transform: translateY(-25%);
+}
+
+.logo-container {
+  max-height: 250px;
+  overflow: hidden;
 }
