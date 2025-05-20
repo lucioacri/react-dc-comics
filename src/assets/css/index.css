@@ -76,6 +76,14 @@ main {
   flex-grow: 1;
 }
 
+/* Root */
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
 /* Header */
 
 #page-header nav ul {
@@ -108,4 +116,12 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* Footer */
+
+#footer-navbar {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  background-image: url(./footer-bg.jpg);
 }
