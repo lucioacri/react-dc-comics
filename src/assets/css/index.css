@@ -74,6 +74,7 @@ ul {
 
 main {
   flex-grow: 1;
+  color: white;
 }
 
 /* Root */
@@ -120,8 +121,41 @@ main {
 
 /* Footer */
 
+footer {
+  color: white;
+}
+
 #footer-navbar {
   padding-top: 1rem;
   padding-bottom: 2rem;
   background-image: url(./footer-bg.jpg);
+}
+
+#footer-links {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #303030;
+}
+
+#sign-up-button {
+  border: 2px solid blue;
+  background-color: inherit;
+  color: white;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.socials {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.socials h4 {
+  padding-right: 2rem;
+}
+
+.socials nav ul {
+  display: flex;
+  gap: 2rem;
 }

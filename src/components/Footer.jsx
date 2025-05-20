@@ -108,7 +108,49 @@ export default function Footer() {
           </div>
         </div>
       </section>
-      <section id="footer-links"></section>
+      <section id="footer-links">
+        <div className="container">
+          <div className="row">
+            <div className="col-1-2">
+              <button id="sign-up-button">
+                <a href="#">SIGN-UP NOW!</a>
+              </button>
+            </div>
+            <div className="col-1-2 socials">
+              <h4>FOLLOW US</h4>
+              <nav>
+                <ul>
+                  <li>
+                    <a href="#">
+                      <img src="./footer-facebook.png" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./footer-twitter.png" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./footer-youtube.png" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./footer-pinterest.png" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./footer-periscope.png" alt="" />
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </section>
     </footer>
   );
 }
