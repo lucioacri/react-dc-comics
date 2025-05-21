@@ -161,6 +161,22 @@ p {
   font-size: 13px;
 }
 
+/* Alert */
+
+.alert-info {
+  background-color: rgba(0, 136, 0, 0.411);
+  color: green;
+  border: 2px solid green;
+  border-radius: 5px;
+}
+
+.alert-danger {
+  background-color: rgba(255, 0, 0, 0.411);
+  color: red;
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
 /* Footer */
 
 footer {
