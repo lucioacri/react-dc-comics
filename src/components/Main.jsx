@@ -4,7 +4,7 @@ import Alert from "./Alert";
 export default function Main() {
   return (
     <main>
-      <Alert type="danger">a</Alert>
+      <Alert type=""></Alert>
       <section id="content-main">
         <div className="container">
           <div className="row">
