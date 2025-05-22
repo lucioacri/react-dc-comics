@@ -1,7 +1,6 @@
 import ComicCard from "./ComicCard";
-import comics from "./comics";
 
-export default function ComicsList() {
+export default function ComicsList({ comics }) {
   return (
     <section id="content-main">
       <div className="container">
