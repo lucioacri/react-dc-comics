@@ -161,6 +161,40 @@ p {
   font-size: 13px;
 }
 
+.card-media {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.card-content {
+  padding-top: 1rem;
+}
+
+#jumbotron {
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.btn-primary {
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  background-color: #0282f9;
+  border: none;
+  padding: 1rem 2rem;
+}
+
+.current-series {
+  position: relative;
+}
+
+.current-series button {
+  position: absolute;
+  left: 0;
+  top: -70px;
+}
+
 /* Alert */
 
 .alert-info {
