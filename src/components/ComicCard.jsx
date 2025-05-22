@@ -1,4 +1,4 @@
-export default function comicsCards({ comic }) {
+export default function ComicCard({ comic }) {
   return (
     <div className="col-1-6">
       <div className="card">
